@@ -1,0 +1,142 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+@import 'animate.css';
+
+header{
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    height: auto;
+}
+.logo{
+    margin: 0;
+    width: 250px;
+    height: 150px;
+    border-radius: 40px;  
+}
+.link_navs{
+    height: 150px;
+    justify-content: flex-end;
+    align-items:center;
+    font-size: larger;
+    font-family:sans-serif;
+    padding: auto;
+}
+.nav_links ul li{
+    padding: 10px 15px 10px 15px;
+    margin: 5px;
+}
+main{
+    display: grid;
+    width: 100%;
+    grid-template-areas: "contenedor contenedor aside"
+    "contenedor contenedor aside";
+    
+}
+.contenedor{
+    display: flex;
+    flex-wrap: wrap;
+}
+.imagenes{
+    width: 300px;
+   margin-top: 20px;
+
+}
+.card-1{
+    
+    margin: 20px;
+}
+.card-2{
+
+    margin: 20px;
+}
+.card-3{
+    margin: 20px;   
+}
+.card-4{
+    margin: 20px;   
+}
+aside{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:rgb(226, 191, 220);
+    width: 300px;
+    height: 95%;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+
+
+
+    
+.aside-imagen{
+    margin-top: 50px;
+    width:200px;
+    height: 200px;
+}
+
+
+
+    
+.container-image{
+    padding: 10px;
+    border-radius: 20px;
+    width: 150px;
+    height: 150px;
+}
+    
+.container-titulo{
+        padding-left: 50px;
+        margin-bottom: 20px;
+}
+    
+.container-parrafo{
+        padding: 20px;
+        margin-bottom: 30px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+        width: auto;
+}
+    
+.container-redes a img{
+    width: 70px;
+    margin: 25px;
+    margin-top: 5em;
+    margin-bottom: 7em;
+}
+
+footer{
+    background-color: rebeccapurple;
+    height: 300px;
+    width: 100%;
+}
+
+h4{
+font-family: sans-serif;
+font-size: medium;
+text-align: center;
+color: white;
+}
+
+.hvr-bounce-in {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+  }
+  .hvr-bounce-in:hover, .hvr-bounce-in:focus, .hvr-bounce-in:active {
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+    -webkit-transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+    transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+  }
+  
