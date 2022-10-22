@@ -1,0 +1,80 @@
+
+@import 'variables';
+@import'maps';
+
+.mainContacto{
+    @extend .mainPaginaInicio;
+    .contact_form{  
+      width: 490px; 
+      height: auto;
+      margin: 80px;
+      border-radius: $diezpix;  
+      padding:2em; 
+      background-color:map-get($colores,colorBlanco);
+      .formulario{
+        .tituloContacto{
+          font-size: 39px;  
+          text-align: left; 
+          padding-bottom: $veintepix; 
+          color: map-get($colores,colorLila);
+        }
+        .subtituloContacto{
+          font-size: 16px; 
+          padding-bottom: 30px;
+          color: map-get($colores,colorNegro);   
+        }
+        .labelContacto{
+          display: block; 
+          float: center;  
+        }    
+        .inputContacto{
+          background-color:map-get($colores,colorBlanco);
+          width: 408px; 
+          height: 40px; 
+          border-radius: $cincopix;  
+          border-style: solid; 
+          border-width: 1px; 
+          border-color: map-get($colores,colorLila);
+          margin-top: $diezpix;  
+          padding-left: $diezpix;
+          margin-bottom: $veintepix; 
+        }
+        .textareaContacto{
+          background-color:map-get($colores,colorBlanco);
+          width: 405px; 
+          height: 150px; 
+          border-radius: $cincopix;  
+          border-style: solid; 
+          border-width: 1px; 
+          border-color: map-get($colores,colorLila);
+          margin-top: $diezpix;  
+          padding-left: $diezpix;
+          margin-bottom: $veintepix; 
+          padding-top: 15px; 
+        }
+        .botonContacto{
+          height: 45px; 
+          padding-left: $cincopix;
+          padding-right: $cincopix;   
+          margin-bottom: $cincopix; 
+          margin-top: 1$diezpix;   
+          text-transform: uppercase;
+          background-color: map-get($colores,colorLila);
+          border-color:map-get($colores,colorLila);
+          border-style: solid; 
+          border-radius: $diezpix;  
+          width: 420px;   
+          cursor: pointer;
+          p{
+            color:map-get($colores,colorBlanco);
+          }
+          span{
+            color:map-get($colores,colorLila);
+          }
+        }
+
+      }
+    }
+
+}
+    

@@ -1,0 +1,19 @@
+@import'maps';
+@import'variables';
+
+.mainPaginaInicio{
+    background-image: url(../imagenes/annie-spratt-6a3nqQ1YwBw-unsplash.jpg);
+    background-repeat: no-repeat;
+    height: auto;
+    width: auto;
+    .tituloInicio{
+        color: map-get($colores, colorBlanco);
+        margin:2em;
+    }
+    .parrafoIndex{
+        color: map-get($colores, colorBlanco);
+       font-size:30px ;
+       text-align: justify;
+       margin-left: 2$veintepix;
+    }
+}

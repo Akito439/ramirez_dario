@@ -1,0 +1,19 @@
+@mixin backgroundPage{
+    background-image: url(../imagenes/annie-spratt-6a3nqQ1YwBw-unsplash.jpg);
+    background-repeat: no-repeat;
+    height: auto;
+    width: auto;
+}
+$fuenteArial:Arial, Helvetica, sans-serif;
+
+$escalaUno:scale(1.2);
+$bezier:cubic-bezier(0.47, 2.02, 0.31, -0.36);
+
+
+$veintepix:20px;
+$cincopix:5px;
+$diezpix:10px;
+
+
+$sanSerif:sans-serif;
+

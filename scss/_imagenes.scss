@@ -1,0 +1,22 @@
+@import'variables';
+@import'maps';
+.mainImagenes{
+    @extend .mainPaginaInicio;
+    .acordeonColor{
+        background-color:map-get($colores,colorNegro);
+    }
+
+
+    .pAcordeon{
+        color:map-get($colores,colorBlanco);
+        font-size:larger;
+        font-family: $fuenteArial;
+    }
+}
+
+
+
+
+
+
+

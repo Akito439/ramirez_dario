@@ -1,0 +1,19 @@
+@import 'variables';
+.mainAnimaciones{
+    @extend .mainPaginaInicio;
+   
+    
+        .tituloInicio{
+            color: map-get($colores,colorBlanco);
+            margin:2em;
+        }
+        .cardAnimaciones{
+            margin:50px;
+        }
+    }
+
+        
+    
+       
+
+    

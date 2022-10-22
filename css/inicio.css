@@ -1,0 +1,214 @@
+.mainPaginaInicio, .mainImagenes, .mainAnimaciones, .mainContacto {
+  background-image: url(../imagenes/annie-spratt-6a3nqQ1YwBw-unsplash.jpg);
+  background-repeat: no-repeat;
+  height: auto;
+  width: auto;
+}
+.mainPaginaInicio .tituloInicio, .mainImagenes .tituloInicio, .mainAnimaciones .tituloInicio, .mainContacto .tituloInicio {
+  color: white;
+  margin: 2em;
+}
+.mainPaginaInicio .parrafoIndex, .mainImagenes .parrafoIndex, .mainAnimaciones .parrafoIndex, .mainContacto .parrafoIndex {
+  color: white;
+  font-size: 30px;
+  text-align: justify;
+  margin-left: 2 20px;
+}
+
+* {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  height: auto;
+}
+header .logo {
+  margin: 0;
+  width: 8vw;
+  height: auto;
+  border-radius: 20px;
+}
+header .link_navs {
+  justify-content: flex-end;
+  margin: 20px;
+}
+header .link_navs ul li {
+  height: auto;
+  align-items: center;
+  font-size: larger;
+  font-family: sans-serif;
+  padding: auto;
+  margin-right: 20px;
+}
+header .link_navs ul li:hover {
+  background-color: gray;
+}
+
+footer {
+  height: auto;
+}
+footer .logoFooter {
+  width: 8em;
+  height: auto;
+  margin: 2em;
+}
+footer h4 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: larger;
+  text-align: center;
+  color: white;
+  margin-bottom: 10px;
+}
+footer .hvr-bounce-in {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+}
+footer .hvr-bounce-in:hover {
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+  -webkit-transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+  transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+}
+footer .hvr-bounce-in:focus {
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+  -webkit-transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+  transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+}
+footer .hvr-bounce-in:active {
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+  -webkit-transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+  transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+}
+footer .container-redes {
+  height: 50%;
+}
+footer .container-redes img {
+  width: 4em;
+  margin: 1em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+.mainContacto .contact_form {
+  width: 490px;
+  height: auto;
+  margin: 80px;
+  border-radius: 10px;
+  padding: 2em;
+  background-color: white;
+}
+.mainContacto .contact_form .formulario .tituloContacto {
+  font-size: 39px;
+  text-align: left;
+  padding-bottom: 20px;
+  color: rgb(182, 63, 142);
+}
+.mainContacto .contact_form .formulario .subtituloContacto {
+  font-size: 16px;
+  padding-bottom: 30px;
+  color: #0e0e0e;
+}
+.mainContacto .contact_form .formulario .labelContacto {
+  display: block;
+  float: center;
+}
+.mainContacto .contact_form .formulario .inputContacto {
+  background-color: white;
+  width: 408px;
+  height: 40px;
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(182, 63, 142);
+  margin-top: 10px;
+  padding-left: 10px;
+  margin-bottom: 20px;
+}
+.mainContacto .contact_form .formulario .textareaContacto {
+  background-color: white;
+  width: 405px;
+  height: 150px;
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(182, 63, 142);
+  margin-top: 10px;
+  padding-left: 10px;
+  margin-bottom: 20px;
+  padding-top: 15px;
+}
+.mainContacto .contact_form .formulario .botonContacto {
+  height: 45px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-bottom: 5px;
+  margin-top: 1 10px;
+  text-transform: uppercase;
+  background-color: rgb(182, 63, 142);
+  border-color: rgb(182, 63, 142);
+  border-style: solid;
+  border-radius: 10px;
+  width: 420px;
+  cursor: pointer;
+}
+.mainContacto .contact_form .formulario .botonContacto p {
+  color: white;
+}
+.mainContacto .contact_form .formulario .botonContacto span {
+  color: rgb(182, 63, 142);
+}
+
+.mainAnimaciones .tituloInicio {
+  color: white;
+  margin: 2em;
+}
+.mainAnimaciones .cardAnimaciones {
+  margin: 50px;
+}
+
+.mainColores {
+  background-image: url(../imagenes/annie-spratt-6a3nqQ1YwBw-unsplash.jpg);
+  background-repeat: no-repeat;
+  height: auto;
+  width: auto;
+}
+.mainColores .tituloInicio {
+  color: white;
+  margin: 2em;
+}
+.mainColores .colorfondo {
+  background-color: hwb(0 24% 75%);
+}
+.mainColores .colorfuente {
+  color: white;
+  margin-bottom: 4em;
+}
+.mainColores .cardColores {
+  margin: 200px;
+}
+
+.mainImagenes .acordeonColor {
+  background-color: #0e0e0e;
+}
+.mainImagenes .pAcordeon {
+  color: white;
+  font-size: larger;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/*# sourceMappingURL=inicio.css.map */

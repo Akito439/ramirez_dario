@@ -1,0 +1,31 @@
+@import'maps';
+header {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    height: auto;
+    .logo{
+      margin: 0;
+      width: 8vw;
+      height: auto;
+      border-radius: 20px;
+    }
+    .link_navs{
+      justify-content: flex-end;
+      margin: $veintepix;
+      ul{
+        li{
+          height: auto;
+          align-items: center;
+          font-size: larger;
+          font-family: $sanSerif;
+          padding: auto;
+          margin-right: $veintepix;
+          &:hover{
+            background-color: map-get($colores,colorGris);
+          }
+        }
+      }
+    }
+}

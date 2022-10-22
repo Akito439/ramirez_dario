@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <meta name="description" content="Herramientas para desarrolladores web">
+    <meta name="keywords" content="web tools, desarrolladores, herramientas, web, programacion, html, css">
+    <link rel="shortcut icon" href="/imagenes/web_tools-removebg-preview.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="stylesheet" href="css/inicio.css">
+    <title>Web tools</title>
+</head>
+<body>
+
+    <!-- El "Header" contiene el logo de la pagina y los link de navegacion-->
+  <header>
+      <nav class="d-flex navbar navbar-expand-lg navbar-light bg-dark">
+        <div class="container-fluid d-flex">
+          <a class="navbar-brand logoHeader" href="index.html"><img class="logo" src="/imagenes/web_tools-removebg-preview.png" alt="logo de pagina">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="link_navs collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active text-white" aria-current="page" href="index.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="text-white nav-link" href="Imagenes.html" >Imágenes</a>
+              </li>
+              <li class="nav-item">
+                <a class="text-white nav-link" href="Colores.html">Colores</a>
+              </li>
+              <li class="nav-item">
+                <a class="text-white nav-link" href="animaciones.html">Animaciones</a>
+              </li>
+              <li class="nav-item">
+                <a class="text-white nav-link" href="Contactos.html">Contacto</a>
+              </li>
+              </ul>
+                <form class="d-flex">
+                  <input class="form-control me-2" type="search" placeholder="" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Busqueda</button>
+                </form>
+          </div>
+        </div>
+      </nav>
+  </header>
+
+
+<!--El "Main" contiene noticias sobre desarrollo web, y el "aside" contiene un input de busqueda y publicidades-->
+  <main class="mainContacto container-fluid d-flex justify-content-center ">
+    <div class="contenedor">
+        <!-- formulario de contacto en html y css -->  
+        <div class="contact_form d-flex">
+          <div class="formulario">      
+            <h1 class="tituloContacto">Formulario de contacto</h1>
+            <h3 class="subtituloContacto">Escríbenos y en breve los pondremos en contacto contigo</h3>
+            <form action="" method="post">       
+              <label for="nombre" class="labelContacto">Nombre
+                <span class="obligatorio">*</span>
+              </label>
+              <input class="inputContacto" type="text" name="introducir_nombre" id="nombre" required="obligatorio" placeholder="Escribe tu nombre">
+              <label class="labelContacto" for="email" class="colocar_email">Email
+                  <span class="obligatorio">*</span>
+              </label>
+              <input class="inputContacto" type="email" name="introducir_email" id="email" required="obligatorio" placeholder="Escribe tu Email">
+              <label class="labelContacto" for="telefone" class="colocar_telefono">Teléfono
+              </label>
+              <input class="inputContacto" type="tel" name="introducir_telefono" id="telefono" placeholder="Escribe tu teléfono">
+              <label class="labelContacto" for="website" class="colocar_website">Sitio web
+              </label>
+              <input class="inputContacto" type="url" name="introducir_website" id="website" placeholder="Escribe la URL de tu web">
+              <label class="labelContacto" for="asunto" class="colocar_asunto">Asunto
+                <span class="obligatorio">*</span>
+              </label>
+              <input class="inputContacto" type="text" name="introducir_asunto" id="assunto" required="obligatorio" placeholder="Escribe un asunto">
+              <label class="labelContacto" for="mensaje" class="colocar_mensaje">Mensaje
+                <span class="obligatorio">*</span>
+              </label>                     
+              <textarea name="introducir_mensaje" class="texto_mensaje textareaContacto" id="mensaje" required="obligatorio" placeholder="Deja aquí tu comentario..."></textarea> 
+              <button class="botonContacto" type="submit" name="enviar_formulario" id="enviar"><p>Enviar</p></button>
+              <p class="aviso">
+                <span class="obligatorio"> * </span>los campos son obligatorios.
+              </p>          
+            </form>
+          </div>  
+        </div>     
+    </div>        
+   </main>
+ 
+<!-- el "footer" contiene los derechos registrados y las redes sociales-->
+<footer class="container-fluid bg-dark">
+  <div class="container d-flex justify-content-center">
+    <a href="index.html">
+      <img class="logoFooter d-flex justify-content-center" src="/imagenes/web_tools-removebg-preview.png" alt="logo pagina">
+    </a>
+  </div>
+  <div class="size container-redes d-flex justify-content-center">
+      <a href="http://www.facebook.com" target="_blank"><img class="hvr-bounce-in" src="imagenes/facebook.png" alt="Facebook">
+      </a>
+      <a href="http://www.instagram.com" target="_blank"><img class="hvr-bounce-in" src="imagenes/instagram.png" alt="Instagram"></a>
+      <a href="https://api.whatsapp.com/" target="_blank"><img class="hvr-bounce-in" src="imagenes/whatsapp.png" alt="Whatsapp"></a>
+  </div>
+    <h4>¡Seguinos en nuestras redes!</h4>
+    <h4 class="text-align-center">Web developer tools - Herramientas para desarrolladores web</h4>
+    <h4>Derechos Reservados - 2022</h4>
+</footer>
+
+
+
+
+
+
+
+
+<!-- Script de bootstrap 5-->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
